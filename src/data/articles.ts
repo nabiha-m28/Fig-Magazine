@@ -56,8 +56,8 @@ So while the ballet world becomes more inclusive and sustainable for its dancers
     subtitle: "Growing Into Style on Campus and in the City",
     description: "Growing Into Style on Campus and in the City",
     thumbnail: "/media/Articles/FreshmanYearFashion.png",
-    writer: "Author Name",
-    photographer: "Photographer Name",
+    writer: "Claire Killian",
+    photographer: "Sophia Zhu",
     href: "/articles/freshman-year-fashion",
     content: `Freshman year is weird. With its hallowed rituals of too-big-NSOP-friendgroups and fears of eating in the dining halls alone, it's an awkward, ecstatic, exploratory part of young adulthood defined by big questions like who am I? as where the hell even is that building? When you're in it though, with all the freedom of the first year and "accidentally-getting-on-the-express-train-when-you-need-the-local" it entails, every moment can feel extraordinary. Freshman year is a period of new beginnings, of exploration, of trying things out and perhaps really liking them or maybe realizing they aren't for you.
 
@@ -102,7 +102,7 @@ Sterling Waterfield: "Everyday minimalism with flair"`,
     description: "Bleegee (Black in Delta Gamma) shares the community, history, and choice of being black in a historically white sorority",
     thumbnail: "/media/Articles/blackInaWhiteHouse.png",
     writer: "Ines Legrand",
-    photographer: "Aliaya Nesru, Chantel Hope",
+    photographer: "Chantel Hope",
     href: "/articles/black-in-white-house",
     content: `In a room to the right of Delta Gamma's brownstone's entrance on 114th Street, five girls gather around a table. It pushes towards the edges of the room, fighting for space with boxes of DG shirts and tubes of posters. On the left-most wall hangs a composite of a 2010s sorority class, allowing hundreds of DG faces to peer over the room. The five girls represent a portion of Black-at-DG, affectionately nicknamed Bleegee, one of the sorority's affinity groups that brings together all its Black members.
 
@@ -234,8 +234,8 @@ Genevieve Redmond, Maggie Lynch, and Marisol Ramirez-Buckles are all inheritors 
     subtitle: "Fashion Across Dance Traditions",
     description: "Fashion Across Dance Traditions",
     thumbnail: "/media/Articles/whenFabricMeetsFootwork.png",
-    writer: "Author Name",
-    photographer: "Photographer Name",
+    writer: "Michael Shavelle, Anna Welsh",
+    photographer: "Cole Willis",
     href: "/articles/fabric-meets-footwork",
     comingSoon: true,
   },
