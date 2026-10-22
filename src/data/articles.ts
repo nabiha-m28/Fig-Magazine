@@ -1,4 +1,67 @@
 export const articles = [
+    {
+    id: "koa-chuns-ballet-boy-style",
+    title: "Koa Chun's Ballet Boy Style",
+    subtitle: "Lead Placeholder",
+    description: "Lead Placeholder",
+    thumbnail: "/media/Articles/KoaChunsBalletBoyStyle.jpg",
+    writer: "Writer Name",
+    photographer: "Photographer Name",
+    href: "/articles/koa-chuns-ballet-boy-style",
+    content: `Koa Chun (CC'27) starts every Friday morning with a ballet class. Even amongst the stress of academic classes and the busyness of his full-time job working the front desk at Ballet Tech, Chun is sure to slip on his ballet shoes at 9 am and place his right hand on the barre. He maintains a focused demeanor amongst the teacher's difficult barre combinations and speedy jump sequences. He wears black athletic shorts, a graphic t-shirt, and tan ballet flats-a comfortable, simple outfit that allows him to move with ease.
+
+Chun has been taking ballet classes since he was six years old. He grew up dancing at the Boston Ballet School, a renowned training organization connected to one of the country's leading ballet companies. Following his high school graduation, he moved to Chicago to become a trainee with the Joffrey Ballet and started his studies at Columbia a year later. 
+
+The classic male ballet student uniform of ballet tights and t-shirts marked Chun's time in the Boston Ballet School. Though the colors changed as he went through the school's levels, the silhouette remained.  
+
+Ballet originates in the royal courts of Italy of the 15th century. By the 17th century, it made its way to France, where Louis XIV facilitated its development through the establishment of the Paris Opera Ballet. Slowly, ballet spread across the globe, establishing a strong presence predominately in Europe and Russia that still remains today. In the 20th century, the art form made its way to America and developed a neoclassical style pioneered by the choreographer George Balanchine. Since then, ballet has continued to evolve, incorporating contemporary movement quality to reimagine the classical form. 
+
+Ballet is generally characterized by its upright posture, visibility of the body's lines, exact technique, and elongated demeanor. What began as small, courtly steps in its royal roots developed into a grandiose, athletic, yet still aestheticized movement vocabulary. 
+
+As the dance style has evolved, so has its dress, especially for men. In one of the first ballets, Louis XIV performed as the “Sun King,” wearing an ornate, large ensemble complete with heeled shoes and a cascading headpiece. His costume embodied the ostentatious display of wealth, class, and sophistication the art form originally sought to encompass. As the art form evolved, spreading across Europe and Russia, these big, heavy costumes were gradually shortened and the heels were removed from the shoes. For women, this developed into the iconic tutu silhouette by the 19th century which still remains today, coupled with the invention of pointe shoes in 1820. And for men, tunics, tights, and flat ballet slippers became the norm by 1790.
+
+As the neoclassical style developed in the 20th century with ballet's introduction in the United States, costumes for these new works shifted to become more minimalist, often mimicking practice clothes- leotards, tights, and even elements of streetwear. While tutus, tights, and tunics remained for classical works, newer pieces by choreographers like George Balanchine and Jerome Robbins experimented more and more with what ballet costuming could look like. Today, this history of costuming is reflected in the breadth of ballet works that continue to be performed, from the classical to the neoclassical to the contemporary. 
+
+What remains a constant throughout ballet costuming, though, is the dedication to showcase the line of the body. Thus, for men, generally, tights have endured. In strictly classical pieces like The Sleeping Beauty, The Nutcracker, or Don Quixote, ornate tunic pieces are still typically worn that match the energy of the character being portrayed. Some pieces have men in what are called “poet shirts,” a flowy, draped long sleeve garment that evokes a more eased, natural aesthetic. In more contemporary works, men typically sport some form of tight-fitting garment, whether that be tights and a shirt, a unitard, or shorts and a tank top. The priority remains to show the clarity of line, encompassing the story being told, music being played, or energy being conveyed. 
+
+Performing in costume enabled Chun to embody his onstage persona more clearly. “It makes you really get into character,” he remarked. For classical tunics that often couple with the role of a prince, Chun emphasizes how it helps feel the energy of a regal, strong presence. In June, his ornate costume in Ballet Tech's production of Paquita emphasized his role as a leading man. Chun noted how the type of garment worn often has a direct link to the energy of the movement or the character being portrayed. In a classical tunic, he becomes princely and bold; when wearing a flowy poet shirt, he feels “more friendly, lighter, and casual.” The link between costume and character on the ballet stage seems to be, for Chun, inseparable.
+
+Today, Chun generally gravitates away from tights when choosing what to wear to ballet classes. He prioritizes comfort when it comes to his studio dress: “I like athleisure wear, shorts, tan ballet shoes, and no socks.” He emphasized the desire to wear clothes that don't obstruct or distract from his dancing, allowing him to focus on his movement rather than his appearance. The tights that once signaled academic uniformity have now become a mark of Chun's past. As he has grown as a dancer, his approach to dressing has as well.`,
+    sources: [
+      "https://www.britannica.com/art/ballet",
+      "https://blog.nationalmuseum.ch/en/2023/01/the-dancing-sun-king/",
+      "https://www.britannica.com/art/ballet-costume"
+    ]
+  },
+  {
+    id: "clothes-that-flow-luke-garbaczs-modern-dance-wear",
+    title: "Clothes That Flow: Luke Garbacz's Modern Dance Wear",
+    subtitle: "Lead Placeholder",
+    description: "Lead Placeholder",
+    thumbnail: "/media/Articles/ClothesThatFlowLukeGarbaczsModernDanceWear.jpg",
+    writer: "Writer Name",
+    photographer: "Photographer Name",
+    href: "/articles/clothes-that-flow-luke-garbaczs-modern-dance-wear",
+    content: `Luke Garbacz (CC '27) wears flowier, baggier garments than those that are typically seen at the ballet barre. His shirt and pants drape with his focused, emboldened movement. Some outfits look as if they are everyday streetwear, with a pant leg cuffed or a sleeve rolled up to accommodate the dance classes' unconventional movements,  reflecting a natural effortless quality that persists in Garbacz's dancing as well as his dress. 
+
+Garbacz spent his youth training at Canada's National Ballet School before joining the Hamburg Ballet as an apprentice. After so much time training in one discipline, by the time he came to Columbia College, he knew he wanted to focus more on other styles. Thanks to artistic director John Neumeier, his time at Hamburg had introduced him to more contemporary and modern repertoire, something he sought to continue to explore in New York. 
+
+Modern dance developed in the late 19th and early 20th centuries as a rejection of ballet and other traditional dance forms that dominated earlier periods, serving as a catch-all categorization for an approach to movement that sought to capture natural, authentic expression without the rules and restrictions of classicism. There were several pioneers of this form, with one of the most notable being Martha Graham. She developed a first iteration of a codified modern technique, creating a movement style that trained dancers to simultaneously move with technique and freedom. Focusing on the natural rhythm of the breath, her approach was deeply emotive and thoughtful. Her costuming-often large draped garments and bare feet-reflected the embodied freedom her form seeks to elevate. Alongside Graham, Ted Shawn was another important figure whose vision for modern dance was rooted in showcasing grounded, vigorous masculinity. His troupe of all-male dancers sought to legitimize the art form as a valid career path and fulfilling artistic modality for men. Shawn and Graham both act as exemplary figures that encompass modern dance's overarching goals to redefine what codified movement could look like, embodying freedom, emotion, and naturality. 
+
+This more genuine and human approach to movement is part of what draws Garbacz to the form. During his time at Columbia, Garbacz has performed in roles ranging from acting in Spring Awakening to originating choreography by Jodi Melnick. Most recently, he danced in Pina Bausch's Palermo Palermo at the Barnard Dance Showcase, a postmodern, performance art piece. Bausch's avant-garde piece included dancers throwing garbage on the stage, talking about spaghetti to the audience, and trying not to spill a handful of water. “I gravitate towards it because it's so incredibly dramatic; it's very emotive, but not in a performative way. You get the sense that the dancers on stage are actually experiencing the things that they're dancing rather than trying to play it up. There's a certain genuineness to it.” Garbacz wore a button-up shirt, trousers, and boots—everyday garments that contribute to the exaggerated, expansive feeling of the movement.  
+
+The modern dance garb is harder to define than classical ballet. Isadora Duncan started the trend of performing completely barefoot, representing modern's shift to the natural and humane. While some dances kept the trend of elaborate costumes, they were generally draped garments rather than ballet's rigid tutus. Some choreographers also used everyday clothing or practicewear. Just as the technique marked a shift away from ballet's rules, so did the approach to costuming.
+
+As a ballet student, Garbacz grew used to dawning grey tights, ballet flats, and a white t-shirt everyday, per studio guidelines. “At the time it didn't bother me. I mean I didn't like it, but I didn't see it as a restriction in the same way that I would now.” Wearing a uniform everyday shaped how he saw his body and his dancing in a very particular way. Once he joined the company in Hamburg, he started to experiment with his studio style in a way he described by incorporating “more colors, more layers, and more shorts,” elements that were not allowed growing up in ballet classes.  
+
+As he has broken farther away from ballet and its regulations, Garbacz has continued experimenting with his studio wear, sporting baggier clothes and anything he feels “flow with the movement.” At times, though, he likes to go back to his balletic roots and wear the tighter garments that used to be his everyday wear. 
+
+Like the ethos to modern dance movement, Garbacz approach to his dancewear encompasses finding what works for him in his individuality.  “I don't think there are rules, nor should there be, nor should it be something that you intellectualize too much or a concern over too much. Just have fun with it, I guess.”`,
+    sources: [
+      "https://www.kennedy-center.org/education/resources-for-educators/classroom-resources/media-and-interactives/media/dance/dancing-to-different-rules/",
+      "https://www.britannica.com/biography/Ted-Shawn"
+    ]
+  },
   {
     id: "dress-me-ballerina",
     title: "Dress Me, Ballerina",
