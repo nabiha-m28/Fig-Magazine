@@ -1,4 +1,33 @@
 export const articles = [
+  {
+    id: "clothes-that-flow-luke-garbaczs-modern-dance-wear",
+    title: "Clothes That Flow: Luke Garbacz's Modern Dance Wear",
+    subtitle: "Lead Placeholder",
+    description: "Lead Placeholder",
+    thumbnail: "/media/Articles/ClothesThatFlowLukeGarbaczsModernDanceWear.jpg",
+    writer: "Writer Name",
+    photographer: "Photographer Name",
+    href: "/articles/clothes-that-flow-luke-garbaczs-modern-dance-wear",
+    content: `Luke Garbacz (CC '27) wears flowier, baggier garments than those that are typically seen at the ballet barre. His shirt and pants drape with his focused, emboldened movement. Some outfits look as if they are everyday streetwear, with a pant leg cuffed or a sleeve rolled up to accommodate the dance classes' unconventional movements,  reflecting a natural effortless quality that persists in Garbacz's dancing as well as his dress. 
+
+Garbacz spent his youth training at Canada's National Ballet School before joining the Hamburg Ballet as an apprentice. After so much time training in one discipline, by the time he came to Columbia College, he knew he wanted to focus more on other styles. Thanks to artistic director John Neumeier, his time at Hamburg had introduced him to more contemporary and modern repertoire, something he sought to continue to explore in New York. 
+
+Modern dance developed in the late 19th and early 20th centuries as a rejection of ballet and other traditional dance forms that dominated earlier periods, serving as a catch-all categorization for an approach to movement that sought to capture natural, authentic expression without the rules and restrictions of classicism. There were several pioneers of this form, with one of the most notable being Martha Graham. She developed a first iteration of a codified modern technique, creating a movement style that trained dancers to simultaneously move with technique and freedom. Focusing on the natural rhythm of the breath, her approach was deeply emotive and thoughtful. Her costuming-often large draped garments and bare feet-reflected the embodied freedom her form seeks to elevate. Alongside Graham, Ted Shawn was another important figure whose vision for modern dance was rooted in showcasing grounded, vigorous masculinity. His troupe of all-male dancers sought to legitimize the art form as a valid career path and fulfilling artistic modality for men. Shawn and Graham both act as exemplary figures that encompass modern dance's overarching goals to redefine what codified movement could look like, embodying freedom, emotion, and naturality. 
+
+This more genuine and human approach to movement is part of what draws Garbacz to the form. During his time at Columbia, Garbacz has performed in roles ranging from acting in Spring Awakening to originating choreography by Jodi Melnick. Most recently, he danced in Pina Bausch's Palermo Palermo at the Barnard Dance Showcase, a postmodern, performance art piece. Bausch's avant-garde piece included dancers throwing garbage on the stage, talking about spaghetti to the audience, and trying not to spill a handful of water. “I gravitate towards it because it's so incredibly dramatic; it's very emotive, but not in a performative way. You get the sense that the dancers on stage are actually experiencing the things that they're dancing rather than trying to play it up. There's a certain genuineness to it.” Garbacz wore a button-up shirt, trousers, and boots—everyday garments that contribute to the exaggerated, expansive feeling of the movement.  
+
+The modern dance garb is harder to define than classical ballet. Isadora Duncan started the trend of performing completely barefoot, representing modern's shift to the natural and humane. While some dances kept the trend of elaborate costumes, they were generally draped garments rather than ballet's rigid tutus. Some choreographers also used everyday clothing or practicewear. Just as the technique marked a shift away from ballet's rules, so did the approach to costuming.
+
+As a ballet student, Garbacz grew used to dawning grey tights, ballet flats, and a white t-shirt everyday, per studio guidelines. “At the time it didn't bother me. I mean I didn't like it, but I didn't see it as a restriction in the same way that I would now.” Wearing a uniform everyday shaped how he saw his body and his dancing in a very particular way. Once he joined the company in Hamburg, he started to experiment with his studio style in a way he described by incorporating “more colors, more layers, and more shorts,” elements that were not allowed growing up in ballet classes.  
+
+As he has broken farther away from ballet and its regulations, Garbacz has continued experimenting with his studio wear, sporting baggier clothes and anything he feels “flow with the movement.” At times, though, he likes to go back to his balletic roots and wear the tighter garments that used to be his everyday wear. 
+
+Like the ethos to modern dance movement, Garbacz approach to his dancewear encompasses finding what works for him in his individuality.  “I don't think there are rules, nor should there be, nor should it be something that you intellectualize too much or a concern over too much. Just have fun with it, I guess.”`,
+    sources: [
+      "https://www.kennedy-center.org/education/resources-for-educators/classroom-resources/media-and-interactives/media/dance/dancing-to-different-rules/",
+      "https://www.britannica.com/biography/Ted-Shawn"
+    ]
+  },
     {
     id: "koa-chuns-ballet-boy-style",
     title: "Koa Chun's Ballet Boy Style",
@@ -31,35 +60,6 @@ Today, Chun generally gravitates away from tights when choosing what to wear to 
       "https://www.britannica.com/art/ballet",
       "https://blog.nationalmuseum.ch/en/2023/01/the-dancing-sun-king/",
       "https://www.britannica.com/art/ballet-costume"
-    ]
-  },
-  {
-    id: "clothes-that-flow-luke-garbaczs-modern-dance-wear",
-    title: "Clothes That Flow: Luke Garbacz's Modern Dance Wear",
-    subtitle: "Lead Placeholder",
-    description: "Lead Placeholder",
-    thumbnail: "/media/Articles/ClothesThatFlowLukeGarbaczsModernDanceWear.jpg",
-    writer: "Writer Name",
-    photographer: "Photographer Name",
-    href: "/articles/clothes-that-flow-luke-garbaczs-modern-dance-wear",
-    content: `Luke Garbacz (CC '27) wears flowier, baggier garments than those that are typically seen at the ballet barre. His shirt and pants drape with his focused, emboldened movement. Some outfits look as if they are everyday streetwear, with a pant leg cuffed or a sleeve rolled up to accommodate the dance classes' unconventional movements,  reflecting a natural effortless quality that persists in Garbacz's dancing as well as his dress. 
-
-Garbacz spent his youth training at Canada's National Ballet School before joining the Hamburg Ballet as an apprentice. After so much time training in one discipline, by the time he came to Columbia College, he knew he wanted to focus more on other styles. Thanks to artistic director John Neumeier, his time at Hamburg had introduced him to more contemporary and modern repertoire, something he sought to continue to explore in New York. 
-
-Modern dance developed in the late 19th and early 20th centuries as a rejection of ballet and other traditional dance forms that dominated earlier periods, serving as a catch-all categorization for an approach to movement that sought to capture natural, authentic expression without the rules and restrictions of classicism. There were several pioneers of this form, with one of the most notable being Martha Graham. She developed a first iteration of a codified modern technique, creating a movement style that trained dancers to simultaneously move with technique and freedom. Focusing on the natural rhythm of the breath, her approach was deeply emotive and thoughtful. Her costuming-often large draped garments and bare feet-reflected the embodied freedom her form seeks to elevate. Alongside Graham, Ted Shawn was another important figure whose vision for modern dance was rooted in showcasing grounded, vigorous masculinity. His troupe of all-male dancers sought to legitimize the art form as a valid career path and fulfilling artistic modality for men. Shawn and Graham both act as exemplary figures that encompass modern dance's overarching goals to redefine what codified movement could look like, embodying freedom, emotion, and naturality. 
-
-This more genuine and human approach to movement is part of what draws Garbacz to the form. During his time at Columbia, Garbacz has performed in roles ranging from acting in Spring Awakening to originating choreography by Jodi Melnick. Most recently, he danced in Pina Bausch's Palermo Palermo at the Barnard Dance Showcase, a postmodern, performance art piece. Bausch's avant-garde piece included dancers throwing garbage on the stage, talking about spaghetti to the audience, and trying not to spill a handful of water. “I gravitate towards it because it's so incredibly dramatic; it's very emotive, but not in a performative way. You get the sense that the dancers on stage are actually experiencing the things that they're dancing rather than trying to play it up. There's a certain genuineness to it.” Garbacz wore a button-up shirt, trousers, and boots—everyday garments that contribute to the exaggerated, expansive feeling of the movement.  
-
-The modern dance garb is harder to define than classical ballet. Isadora Duncan started the trend of performing completely barefoot, representing modern's shift to the natural and humane. While some dances kept the trend of elaborate costumes, they were generally draped garments rather than ballet's rigid tutus. Some choreographers also used everyday clothing or practicewear. Just as the technique marked a shift away from ballet's rules, so did the approach to costuming.
-
-As a ballet student, Garbacz grew used to dawning grey tights, ballet flats, and a white t-shirt everyday, per studio guidelines. “At the time it didn't bother me. I mean I didn't like it, but I didn't see it as a restriction in the same way that I would now.” Wearing a uniform everyday shaped how he saw his body and his dancing in a very particular way. Once he joined the company in Hamburg, he started to experiment with his studio style in a way he described by incorporating “more colors, more layers, and more shorts,” elements that were not allowed growing up in ballet classes.  
-
-As he has broken farther away from ballet and its regulations, Garbacz has continued experimenting with his studio wear, sporting baggier clothes and anything he feels “flow with the movement.” At times, though, he likes to go back to his balletic roots and wear the tighter garments that used to be his everyday wear. 
-
-Like the ethos to modern dance movement, Garbacz approach to his dancewear encompasses finding what works for him in his individuality.  “I don't think there are rules, nor should there be, nor should it be something that you intellectualize too much or a concern over too much. Just have fun with it, I guess.”`,
-    sources: [
-      "https://www.kennedy-center.org/education/resources-for-educators/classroom-resources/media-and-interactives/media/dance/dancing-to-different-rules/",
-      "https://www.britannica.com/biography/Ted-Shawn"
     ]
   },
   {
