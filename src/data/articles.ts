@@ -1,14 +1,30 @@
 export const articles = [
   {
-    id: "clothes-that-flow-luke-garbaczs-modern-dance-wear",
-    title: "Clothes That Flow: Luke Garbacz's Modern Dance Wear",
-    subtitle: "Lead Placeholder",
-    description: "Lead Placeholder",
-    thumbnail: "/media/Articles/ClothesThatFlowLukeGarbaczsModernDanceWear.jpg",
-    writer: "Writer Name",
-    photographer: "Photographer Name",
-    href: "/articles/clothes-that-flow-luke-garbaczs-modern-dance-wear",
-    content: `Luke Garbacz (CC '27) wears flowier, baggier garments than those that are typically seen at the ballet barre. His shirt and pants drape with his focused, emboldened movement. Some outfits look as if they are everyday streetwear, with a pant leg cuffed or a sleeve rolled up to accommodate the dance classes' unconventional movements,  reflecting a natural effortless quality that persists in Garbacz's dancing as well as his dress. 
+    id: "fabric-meets-footwork",
+    title: "When Fabric Meets Footwork",
+    subtitle: "Fashion Across Dance Traditions",
+    description: "Fashion Across Dance Traditions",
+    thumbnail: "/media/Articles/whenFabricMeetsFootwork.png",
+    writer: "Michael Shavelle, Anna Welsh",
+    photographer: "Cole Willis",
+    href: "/articles/fabric-meets-footwork",
+    content: `Parley Ford and Natalie Jolley have been dancing together since 2019. Together, the couple has won eight national championships and four world championships. They are among the youngest and most decorated ballroom dancing duos in the world. On top of this, Ford and Jolley have amassed almost 260,000 followers on their shared Instagram account, 64,000 subscribers on YouTube, and nearly 100,000 followers on TikTok. Part of the couple's charm is an eagerness to share their journey and enthusiasm for dance with the world. 
+
+    While ballroom dance has existed for centuries, the ballroom dancing competitions that Ford and Jolley participate in are a relatively new phenomenon. Ballroom dancing was not originally intended to be performed for public audiences, nor considered sport; instead, its origins are political. Ballroom dancing can be traced back to the royal European courts of the seventeenth and eighteenth centuries. Renaissance court dances centered the monarch and complemented stately power — court dancing initially required dancers to face the throne to prove their reverence for the sovereign. 
+
+    Outside of royal courts, early ballroom dancing also occurred in purely social atmospheres. By the early nineteenth century, well-resourced members of society began hosting invitational assemblies, where patrons could dance and mingle with one another. These assemblies retained strict etiquette guidelines, but permitted members of a similar social class to mingle as a precursor to courting and marriage. While invitational assemblies developed the scope of ballroom dancing from political entertainment to a social custom, these balls remained inherently exclusionary, accessible only by invitation, and thus encouraged continued social stratification. 
+
+    The late nineteenth century democratized ballroom, transforming it from an aristocratic pastime into a widespread sensation. New dance steps, such as the waltz, a more intimate sub-genre, overturned the norms of ballroom dancing. Dance instruction became more accessible, and new, public forms of dance emerged. Craze soon evolved into competition: by 1907, the first international Tango competition was hosted in Nice, France, soon followed by competitions held in other European cultural capitals, creating the competitive ballroom world that Parley and Natalie inhabit. 
+
+    If, throughout its history, traditional ballroom dancing has progressed from exclusive to within-reach, Parley and Natalie represent another turning point in its evolution. In their impressive social media following, they portray competitive ballroom dancing as a welcoming and approachable atmosphere. Their content generously invites viewers behind-the-scenes during competition preparation, exhibitions, and even the mundane day-to-day. On YouTube, they post dance tutorials, making difficult moves intelligible, and alleviating the immediate need for a paid dance instructor. They post vlogs filled with laughter, almost contagious through the screen.  Unassuming viewers may click on their content because of their accolades, and deservedly so, but will stick around because of their authenticity, warmth, and the kindness and respect that they show both the viewer, and one another. Consciously or not, Parley and Natalie have harnessed the expansive reach of social media to further dismantle ballroom's exclusive trend, and widen its audiences. 
+
+    Parley and Natalie's social media presence has allowed them to share their costumes with their digital audience. Competitive ballroom dancing costumes are often extravagant and ornate. Striking costumes are preferred, so that the judges of a competition will be able to easily recall a couple. Further, there is a measure of artistry in ballroom costuming that has become the norm within the competitive sphere. Dancers often opt to have costumes designed for individual routines, to capture both their own personal and dance style, as well as a routine's narrative.  Costumes typically reflect the subgenre that the dancers are competing in: Standard, Latin, Smooth, and Rhythm. Parley and Natalie are Smooth champions, a more contemporary form of ballroom, in which a couple is permitted to break apart, and dance individually during a performance. American Smooth incorporates four dance steps: waltz, tango, foxtrot, and Viennese waltz. Smooth dancers, like Parley and Natalie, inhabit a combination of genres, and therefore costuming requirements are not strict, but require the dancer to portray their own singularity, poise, and dancing style. Smooth dresses are sleeker than American Standard dresses, which are lighter, shorter, and meant to emphasize the dancer's footwork.
+
+    The style of Parley and Natalie's social media content emphasizes the intricacy and glamour of ballroom dance costuming. In many of their short-form videos, the couple cut their videos, so that the first half of the video shows their casual outfits, and the second half of the video highlights their competition garb. These transition videos, a popular type of content on Tik Tok and Instagram, reveal the stark contrast between streetwear and costumes, exhibiting the theatrical persona that the ballroom dancer must implement to be successful in competition. Natalie's long glossy hair is suddenly flawlessly tied at the nape of her neck, her face delicately adorned with striking makeup, and Parley's spiky haircut is gelled completely flat. In their matching formalwear, the clothing transfer is also an identity shift; posture becomes straighter, movements sharper. Parley and Natalie disclose the dual sides of character that make a successful ballroom dancer. 
+
+    Parley and Natalie are currently in a partnership with Michael Chen, who designs couture competitionwear for the couple. The dresses that Chen creates for Jolley are elegant — notable for their rippling fabric, which compliments Jolley's swishing turns - elongating her smooth movements. The fabric near the hem of the dress is often jagged, folding over each segment of dress, creating a simultaneously floaty and volumizing effect.Jolley's dresses are typically bejeweled; she recently danced in a hand-stoned outfit, complete with pink ostrich feathers hanging at her feet; the outfit garnered the couple millions of views on social media. 
+
+    Luke Garbacz (CC '27) wears flowier, baggier garments than those that are typically seen at the ballet barre. His shirt and pants drape with his focused, emboldened movement. Some outfits look as if they are everyday streetwear, with a pant leg cuffed or a sleeve rolled up to accommodate the dance classes' unconventional movements,  reflecting a natural effortless quality that persists in Garbacz's dancing as well as his dress. 
 
 Garbacz spent his youth training at Canada's National Ballet School before joining the Hamburg Ballet as an apprentice. After so much time training in one discipline, by the time he came to Columbia College, he knew he wanted to focus more on other styles. Thanks to artistic director John Neumeier, his time at Hamburg had introduced him to more contemporary and modern repertoire, something he sought to continue to explore in New York. 
 
@@ -22,22 +38,29 @@ As a ballet student, Garbacz grew used to dawning grey tights, ballet flats, and
 
 As he has broken farther away from ballet and its regulations, Garbacz has continued experimenting with his studio wear, sporting baggier clothes and anything he feels “flow with the movement.” At times, though, he likes to go back to his balletic roots and wear the tighter garments that used to be his everyday wear. 
 
-Like the ethos to modern dance movement, Garbacz approach to his dancewear encompasses finding what works for him in his individuality.  “I don't think there are rules, nor should there be, nor should it be something that you intellectualize too much or a concern over too much. Just have fun with it, I guess.”`,
-    sources: [
-      "https://www.kennedy-center.org/education/resources-for-educators/classroom-resources/media-and-interactives/media/dance/dancing-to-different-rules/",
-      "https://www.britannica.com/biography/Ted-Shawn"
-    ]
-  },
-    {
-    id: "koa-chuns-ballet-boy-style",
-    title: "Koa Chun's Ballet Boy Style",
-    subtitle: "Lead Placeholder",
-    description: "Lead Placeholder",
-    thumbnail: "/media/Articles/KoaChunsBalletBoyStyle.jpg",
-    writer: "Writer Name",
-    photographer: "Photographer Name",
-    href: "/articles/koa-chuns-ballet-boy-style",
-    content: `Koa Chun (CC'27) starts every Friday morning with a ballet class. Even amongst the stress of academic classes and the busyness of his full-time job working the front desk at Ballet Tech, Chun is sure to slip on his ballet shoes at 9 am and place his right hand on the barre. He maintains a focused demeanor amongst the teacher's difficult barre combinations and speedy jump sequences. He wears black athletic shorts, a graphic t-shirt, and tan ballet flats-a comfortable, simple outfit that allows him to move with ease.
+Like the ethos to modern dance movement, Garbacz approach to his dancewear encompasses finding what works for him in his individuality.  “I don't think there are rules, nor should there be, nor should it be something that you intellectualize too much or a concern over too much. Just have fun with it, I guess.”
+
+Kaiden Currie is one of the most accomplished tap dancers in the world — and a junior in Columbia College. In a recent interview, Currie explained the confluence of his personal style and performance attire, and how both allow him to participate in a tradition of individualistic, expressive tap dancing. 
+
+The most integral part of a tapper's costume is their shoes. Tap performance relies on the percussive heel of the shoe aligning with or complementing the accompanying music. Every day, Currie cycles through three or four pairs of tap shoes, a small subset of his collection; he owns about fourteen pairs of shoes designated for dance. In rehearsal, Currie typically opts for a Jason Samuel Smith bloch tap shoe because of their durability, ease to wear, and heavier build, which improves strength. When performing, however, Currie typically reaches for his Ruben Sanchez shoes, which he can more comfortably execute difficult footwork in.
+
+For the 2025 Tap World Championships, Currie competed in Ruben Sanchez shoes. He decided on a glimmering silver pair, which matched the rest of his costume. The shoes, Currie laughed, are his most precious pair: “they're like my children.” He matched them with a pair of custom pleated black dress pants, sewn specially by a student at Parsons School of Design - stretchy enough to withstand whorling movements without ripping. His top was a baby-blue shirt adorned with rhinestones and pinstripes purchased from a Latin ballroom company. Currie selected every component of the costume himself. “My dream dance, my dream costume,” he grinned, remembering, “my dream solo. It was what I wanted. It was perfect.” He danced to the jazz standard, Caravan — beaming, spinning, bowing. The routine realized a tradition of collaboration between two distinctly American art forms: jazz and tap. It was Currie's eleventh world championship title. 
+
+Dance, for Currie, is not confined to performance. It is a vital part of his day-to-day routine. “If you see me in public, or like alone,” Currie confessed, “I'm always tapping. If there's ever any music, I'm always walking to the beat.” He waggled his black loafers. His favorite everyday shoe, though, is a Reebok sneaker. While not intended for dancing, Currie chooses Reeboks because of their thin soles, which allow him to feel the floor, which assists him when he dances. He can transition seamlessly from crossing campus in his Reeboks to using them to warm up in the studio. 
+
+Currie wears similarly relaxed clothing in his rehearsals and performances. For more casual events, he explained, "typically I just wear jeans and a shirt, like a nice baggy jean and a little open button-up shirt, or something. Even just a T-shirt and jeans. I kind of take what I wear normally, and will just perform in that.” Tap has no fixed uniform, and instead lets its dancers develop their own stylistic narratives. For Currie, his identity onstage is himself, “but it's an unrestricted version of myself.” He doesn't assume a persona, but rather attempts to be present and enjoy his dances; he funnels this energy into his charged and affecting performances. Authenticity and unfettered individuality are fundamentals of Currie's style.
+
+Like its costuming, tap itself is a historically individualistic and dynamic art form. Tap, as we know it, did not emerge in the United States until just over a century ago. Its origins are murky; some scholars argue that tap emerged when enslavers prohibited percussive instruments, and enslaved people resorted to using their bodies to create sound. The tap tradition also absorbed and incorporated European dance styles; tap instead may have emerged as enslaved West Africans and indentured Irish servants observed one another's dance methods on southern plantations, or perhaps, more recent research indicates that this cultural exchange may have occurred in the Five Points District of Manhattan, where a variety of ethnic groups resided in close quarters, observing one another's traditions.
+
+Tap performance began in the late nineteenth century in minstrel shows, racist productions that hinged on portraying stereotypes of Black characters. In the early twentieth century, vaudeville variety shows began incorporating tap dance into their showcases. Tap entered popular culture during the Harlem Renaissance, when dancers began to collaborate with jazz musicians, performed in night clubs, and integrated the modern tap shoe. 
+
+Currie grew up in a majority-white area in Massachusetts, where his mother and grandmother were dance teachers at a studio in the basement of a fire station. Through tap events where he began to learn the dance's history, Currie noted that he “started to realize that there is such a deep-rooted history with Black American art and tap dance.” The history of tap has started to play a larger role in his performance. “Everytime I'm dancing,” he explained, “there is an understanding of the people who came before, who created all of the things that I do. Mostly Black artists and Black tap dancers.” As he dances, Currie hopes to both honor and represent them. 
+
+Currie has a new pair of shoes arriving in the mail. They're a pair of custom Ruben Sanchez tap shoes — white patent and navy blue. “I love a smiley face, like, I always sign with a smiley face, so I got a blue smiley face on the outside heel, which matches the blue. You see it, but you don't.” 
+
+Currie's approach to tap, like his approach to shoes, is characteristic of a genre shaped by individuality and resistance. Dance is itself a lifestyle, one that Currie makes perpetually accessible through his fashion and costuming choices. In performance, craft outweighs any specific clothing style, and costumes are built around the routine. A hidden smiley face represents one dancer's contribution to a lineage of growth in tap dancing, where single dancers can change an entire genre. 
+
+Koa Chun (CC'27) starts every Friday morning with a ballet class. Even amongst the stress of academic classes and the busyness of his full-time job working the front desk at Ballet Tech, Chun is sure to slip on his ballet shoes at 9 am and place his right hand on the barre. He maintains a focused demeanor amongst the teacher's difficult barre combinations and speedy jump sequences. He wears black athletic shorts, a graphic t-shirt, and tan ballet flats-a comfortable, simple outfit that allows him to move with ease.
 
 Chun has been taking ballet classes since he was six years old. He grew up dancing at the Boston Ballet School, a renowned training organization connected to one of the country's leading ballet companies. Following his high school graduation, he moved to Chicago to become a trainee with the Joffrey Ballet and started his studies at Columbia a year later. 
 
@@ -55,8 +78,26 @@ What remains a constant throughout ballet costuming, though, is the dedication t
 
 Performing in costume enabled Chun to embody his onstage persona more clearly. “It makes you really get into character,” he remarked. For classical tunics that often couple with the role of a prince, Chun emphasizes how it helps feel the energy of a regal, strong presence. In June, his ornate costume in Ballet Tech's production of Paquita emphasized his role as a leading man. Chun noted how the type of garment worn often has a direct link to the energy of the movement or the character being portrayed. In a classical tunic, he becomes princely and bold; when wearing a flowy poet shirt, he feels “more friendly, lighter, and casual.” The link between costume and character on the ballet stage seems to be, for Chun, inseparable.
 
-Today, Chun generally gravitates away from tights when choosing what to wear to ballet classes. He prioritizes comfort when it comes to his studio dress: “I like athleisure wear, shorts, tan ballet shoes, and no socks.” He emphasized the desire to wear clothes that don't obstruct or distract from his dancing, allowing him to focus on his movement rather than his appearance. The tights that once signaled academic uniformity have now become a mark of Chun's past. As he has grown as a dancer, his approach to dressing has as well.`,
+Today, Chun generally gravitates away from tights when choosing what to wear to ballet classes. He prioritizes comfort when it comes to his studio dress: “I like athleisure wear, shorts, tan ballet shoes, and no socks.” He emphasized the desire to wear clothes that don't obstruct or distract from his dancing, allowing him to focus on his movement rather than his appearance. The tights that once signaled academic uniformity have now become a mark of Chun's past. As he has grown as a dancer, his approach to dressing has as well.
+    `,
     sources: [
+      "https://www.britannica.com/art/ballroom-dance",
+      "https://www.nationalgeographic.com/culture/article/how-ballroom-dancing-went-from-elite-pastime-to-dance-hall-craze",
+      "https://www.fredastaire.com/valparaiso/blog/fred-astaire-fads-history/dance-history-and-origins-exploring-the-evolution-of-ballroom-dance/",
+      "https://www.dreamduffel.com/blog/post/brief-history-competitive-dance#:~:text=Dance%20turned%20into%20genuine%20sport,venues%20for%20their%20dance%20contests.",
+      "https://www.fredastaire.com/valparaiso/blog/dance-info-news-trends/ballroom-dance-fashion-and-costume-design/",
+      "https://startdancing.org/learn-about-ballroom",
+      "https://americandancer.org/your-next-smooth-dress/",
+      "https://americandancer.org/standard-dresses-arent-so-standard-anymore/#:~:text=In%20the%20United%20States%2C%20ballroom,wear%20the%20longer%2C%20flowy%20gowns.",
+      "https://www.instagram.com/reels/DTjhJZsj7kO/",
+      "https://www.instagram.com/parley_and_natalie/",
+
+      "https://www.kennedy-center.org/education/resources-for-educators/classroom-resources/media-and-interactives/media/dance/dancing-to-different-rules/",
+      "https://www.britannica.com/biography/Ted-Shawn",
+
+      "https://www.britannica.com/art/tap-dance",
+      "https://ums.org/2019/06/21/from-margins-to-mainstream-tap-dance-history/",
+
       "https://www.britannica.com/art/ballet",
       "https://blog.nationalmuseum.ch/en/2023/01/the-dancing-sun-king/",
       "https://www.britannica.com/art/ballet-costume"
@@ -290,16 +331,5 @@ Genevieve Redmond, Maggie Lynch, and Marisol Ramirez-Buckles are all inheritors 
       "https://nmwa.org/blog/artist-spotlight/isadora-duncan-a-revolutionary-dancer/",
       "https://www.scfta.org/discover-watch-listen/articles/_/the-legacy-of-martha-graham"
     ]
-  },
-  {
-    id: "fabric-meets-footwork",
-    title: "When Fabric Meets Footwork",
-    subtitle: "Fashion Across Dance Traditions",
-    description: "Fashion Across Dance Traditions",
-    thumbnail: "/media/Articles/whenFabricMeetsFootwork.png",
-    writer: "Michael Shavelle, Anna Welsh",
-    photographer: "Cole Willis",
-    href: "/articles/fabric-meets-footwork",
-    comingSoon: true,
   },
 ];
