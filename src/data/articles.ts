@@ -8,7 +8,9 @@ export const articles = [
     writer: "Michael Shavelle, Anna Welsh",
     photographer: "Cole Willis",
     href: "/articles/fabric-meets-footwork",
-    content: `Parley Ford and Natalie Jolley have been dancing together since 2019. Together, the couple has won eight national championships and four world championships. They are among the youngest and most decorated ballroom dancing duos in the world. On top of this, Ford and Jolley have amassed almost 260,000 followers on their shared Instagram account, 64,000 subscribers on YouTube, and nearly 100,000 followers on TikTok. Part of the couple's charm is an eagerness to share their journey and enthusiasm for dance with the world. 
+    content: `<i>In Partnership: How Dress Emerges in Ballroom with Parley and Natalie</i>
+
+    Parley Ford and Natalie Jolley have been dancing together since 2019. Together, the couple has won eight national championships and four world championships. They are among the youngest and most decorated ballroom dancing duos in the world. On top of this, Ford and Jolley have amassed almost 260,000 followers on their shared Instagram account, 64,000 subscribers on YouTube, and nearly 100,000 followers on TikTok. Part of the couple's charm is an eagerness to share their journey and enthusiasm for dance with the world. 
 
     While ballroom dance has existed for centuries, the ballroom dancing competitions that Ford and Jolley participate in are a relatively new phenomenon. Ballroom dancing was not originally intended to be performed for public audiences, nor considered sport; instead, its origins are political. Ballroom dancing can be traced back to the royal European courts of the seventeenth and eighteenth centuries. Renaissance court dances centered the monarch and complemented stately power — court dancing initially required dancers to face the throne to prove their reverence for the sovereign. 
 
@@ -25,7 +27,7 @@ export const articles = [
     Parley and Natalie are currently in a partnership with Michael Chen, who designs couture competitionwear for the couple. The dresses that Chen creates for Jolley are elegant — notable for their rippling fabric, which compliments Jolley's swishing turns - elongating her smooth movements. The fabric near the hem of the dress is often jagged, folding over each segment of dress, creating a simultaneously floaty and volumizing effect.Jolley's dresses are typically bejeweled; she recently danced in a hand-stoned outfit, complete with pink ostrich feathers hanging at her feet; the outfit garnered the couple millions of views on social media. 
 
 
-Clothes That Flow: Luke Garbacz’s Modern Dance Wear
+<i>Clothes That Flow: Luke Garbacz's Modern Dance Wear</i>
 
 Luke Garbacz (CC '27) wears flowier, baggier garments than those that are typically seen at the ballet barre. His shirt and pants drape with his focused, emboldened movement. Some outfits look as if they are everyday streetwear, with a pant leg cuffed or a sleeve rolled up to accommodate the dance classes' unconventional movements,  reflecting a natural effortless quality that persists in Garbacz's dancing as well as his dress. 
 
@@ -42,6 +44,8 @@ As a ballet student, Garbacz grew used to dawning grey tights, ballet flats, and
 As he has broken farther away from ballet and its regulations, Garbacz has continued experimenting with his studio wear, sporting baggier clothes and anything he feels “flow with the movement.” At times, though, he likes to go back to his balletic roots and wear the tighter garments that used to be his everyday wear. 
 
 Like the ethos to modern dance movement, Garbacz approach to his dancewear encompasses finding what works for him in his individuality.  “I don't think there are rules, nor should there be, nor should it be something that you intellectualize too much or a concern over too much. Just have fun with it, I guess.”
+
+<i>Tapped In: Kaiden Currie and a Tap Style</i>
 
 Kaiden Currie is one of the most accomplished tap dancers in the world — and a junior in Columbia College. In a recent interview, Currie explained the confluence of his personal style and performance attire, and how both allow him to participate in a tradition of individualistic, expressive tap dancing. 
 
@@ -63,7 +67,7 @@ Currie has a new pair of shoes arriving in the mail. They're a pair of custom Ru
 
 Currie's approach to tap, like his approach to shoes, is characteristic of a genre shaped by individuality and resistance. Dance is itself a lifestyle, one that Currie makes perpetually accessible through his fashion and costuming choices. In performance, craft outweighs any specific clothing style, and costumes are built around the routine. A hidden smiley face represents one dancer's contribution to a lineage of growth in tap dancing, where single dancers can change an entire genre. 
 
-Koa Chun’s Ballet Boy Style  
+<i>Koa Chun's Ballet Boy Style </i>
 
 Koa Chun (CC'27) starts every Friday morning with a ballet class. Even amongst the stress of academic classes and the busyness of his full-time job working the front desk at Ballet Tech, Chun is sure to slip on his ballet shoes at 9 am and place his right hand on the barre. He maintains a focused demeanor amongst the teacher's difficult barre combinations and speedy jump sequences. He wears black athletic shorts, a graphic t-shirt, and tan ballet flats-a comfortable, simple outfit that allows him to move with ease.
 
