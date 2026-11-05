@@ -1,5 +1,5 @@
 export const articles = [
-
+/*
 {
   id: "one-sock-one-team-one-legacy",
   title: "One Sock, One Team, One Legacy",
@@ -33,6 +33,7 @@ Like Bezuglaya, Loncar also enjoys and believes the traditions of the team unite
 
 What all these traditions share with the blue sock is the same essential function: The ability to transform fifty individual competitors into a unified team. The sock is merely the most visible manifestation of that language, faithfully worn on the body, carried onto the strip, and immediately understood to anyone in the fencing world. For Loncar, it is the fencing “stamp of approval.” For Hamilton, it is like “putting a target on your back.” Its value comes not just from what it says, but its foundation of the team's unmatched dynamic and its connection to Columbia fencing's rich history.`,
 },
+*/
 
     {
     id: "fabric-meets-footwork",
