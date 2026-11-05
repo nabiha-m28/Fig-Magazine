@@ -1,5 +1,5 @@
 export const articles = [
-/*
+
 {
   id: "one-sock-one-team-one-legacy",
   title: "One Sock, One Team, One Legacy",
@@ -29,11 +29,10 @@ When each fencer has on the blue sock, “it's an army,” Bezuglaya said. “Wh
 
 For Luka Loncar, SEAS '28, a fencer on the men's épée team, this tradition serves as a link to the past and as motivation for the future. There is a Wall of Champions in the fencing practice rooms of the Dodge Fitness Center, featuring portraits of previous Columbia fencers who achieved a high level of success during their time at Columbia, such as All Ivy League status or NCAA champion. These fencers also wore the blue sock and stood in the same practice room, each with goals and aspirations of their own.
 
-Like Bezuglaya, Loncar also enjoys and believes the traditions of the team unite it and make it stronger. For example, on the bus ride to Ivy League Fencing Championships, every first-year student on the team is required to perform karaoke, judged in real time by the senior members of the team. For Loncar, the experience was equal parts terrifying and transformative. He was incredibly nervous to sing in front of his peers, but after performing his song and surviving the seniors' verdict, Loncar felt like he could do anything, including win at Ivy League Championships. The fencing team observes another special tradition before each meet, in which the men's and women's teams gather together at the call of “Assemble!” for a collective pep talk led by fellow team members before they end with the cheer “1, 2, 3, Columbia!”  The team also has chants, like 我们是帅哥, Chinese for “we are handsome men” yelled at full-voice by the team before each competition. These small rituals, which bring in bizarre stares from outsiders, are an integral part of Columbia's fencing team that prepare it to win.
+Like Bezuglaya, Loncar also enjoys and believes the traditions of the team unite it and make it stronger. For example, on the bus ride to Ivy League Fencing Championships, every new member from first-year to coach performs karaoke for the rest of the team. For Loncar, the experience was equal parts nerve-wracking and transformative. He was shy to sing in front of his peers, but after performing his song and receiving the seniors’ verdict, Loncar felt like he could do anything– including win at Ivy League Championships. The fencing team observes another special tradition before each meet, in which the men’s and women’s teams gather together at the call of “Assemble!” for a collective pep talk led by fellow team members before they end with the cheer “1, 2, 3, Columbia!”  The team also has chants, like 我们是帅哥, Chinese for “we are handsome men” yelled at full-voice by the team before each competition. These small rituals, which bring in bizarre stares from outsiders, are an integral part of Columbia’s fencing team that prepare it to win.
 
 What all these traditions share with the blue sock is the same essential function: The ability to transform fifty individual competitors into a unified team. The sock is merely the most visible manifestation of that language, faithfully worn on the body, carried onto the strip, and immediately understood to anyone in the fencing world. For Loncar, it is the fencing “stamp of approval.” For Hamilton, it is like “putting a target on your back.” Its value comes not just from what it says, but its foundation of the team's unmatched dynamic and its connection to Columbia fencing's rich history.`,
 },
-*/
 
     {
     id: "fabric-meets-footwork",
