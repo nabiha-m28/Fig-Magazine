@@ -1,5 +1,25 @@
 export const galleryImages = [
   {
+    src: "/media/galleryImages/43.jpeg",
+    alt: "Gallery image 43",
+  },
+  {
+    src: "/media/galleryImages/45.jpeg",
+    alt: "Gallery image 45",
+  },
+  {
+    src: "/media/galleryImages/42.jpeg",
+    alt: "Gallery image 42",
+  },
+  {
+    src: "/media/galleryImages/44.jpeg",
+    alt: "Gallery image 44",
+  },
+  {
+    src: "/media/galleryImages/41.jpeg",
+    alt: "Gallery image 41",
+  },
+  {
     src: "/media/galleryImages/1.jpg",
     alt: "Gallery image 1",
   },
