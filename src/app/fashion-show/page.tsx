@@ -159,28 +159,32 @@ export default function FashionShowPage() {
                             </button>
                         </div>
 
-                        {/* Clickable Designer Directory */}
-                        <div className="mt-20 border-t border-white/20 pt-8">
-                            <h3 className="mb-8 text-xs font-semibold uppercase tracking-[0.25em] text-white/50">
-                                All Designers
-                            </h3>
+                        {/* Designer Collection Gallery */}
+                        <div className="mt-12 border-t border-white/20 pt-8">
+                            <div className="mb-8 flex items-center justify-between">
+                                <h3 className="text-xs font-semibold uppercase tracking-[0.25em] text-white/60">
+                                    The Collection
+                                </h3>
 
-                            <div className="flex flex-wrap justify-center gap-x-8 gap-y-4 md:justify-start">
-                                {designers.map((item, index) => (
-                                    <button
-                                        key={item.id}
-                                        type="button"
-                                        onClick={() => setActiveIndex(index)}
-                                        aria-current={
-                                            activeIndex === index ? "true" : undefined
-                                        }
-                                        className={`border-b pb-2 text-sm font-semibold uppercase tracking-[0.15em] transition ${activeIndex === index
-                                            ? "border-white text-white"
-                                            : "border-transparent text-white/40 hover:text-white"
-                                            }`}
+                                <span className="text-xs uppercase tracking-[0.2em] text-white/50">
+                                    {designer.looks.length} Looks
+                                </span>
+                            </div>
+
+                            <div className="grid grid-cols-2 justify-items-center gap-4 md:grid-cols-4 md:gap-6">
+                                {designer.looks.map((look, index) => (
+                                    <div
+                                        key={`${designer.id}-${index}`}
+                                        className="relative aspect-[3/4] w-full max-w-[260px] overflow-hidden"
                                     >
-                                        {item.name}
-                                    </button>
+                                        <Image
+                                            src={look}
+                                            alt={`${designer.name} - Look ${index + 1}`}
+                                            fill
+                                            className="object-cover"
+                                            sizes="(min-width: 768px) 220px, 50vw"
+                                        />
+                                    </div>
                                 ))}
                             </div>
                         </div>
