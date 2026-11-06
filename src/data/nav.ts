@@ -7,4 +7,5 @@ export const navLinks = [
   { label: "ABOUT US", href: "/about" },
   { label: "PRE-ORDER", href: "/pre-order" },
   { label: "CONTACT", href: "/contact" },
+  { label: "FASHION SHOW '26", href: "/fashion-show" },
 ];

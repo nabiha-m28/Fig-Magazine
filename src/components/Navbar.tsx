@@ -49,7 +49,7 @@ export default function Navbar({ links, onLogoClick }: NavbarProps) {
         </div>
 
         {/* Navigation links */}
-        <div className="flex flex-1 flex-wrap items-center justify-center gap-x-5 gap-y-2 md:justify-start">
+        <div className="flex flex-1 flex-wrap items-center justify-center gap-x-5 gap-y-2 md:justify-start md:pr-20">
           {links.map((link) => {
             const isActive =
               link.href === "/"
@@ -72,7 +72,7 @@ export default function Navbar({ links, onLogoClick }: NavbarProps) {
         </div>
 
         {/* Desktop: Logo centered */}
-        <div className="hidden md:absolute md:left-1/2 md:top-7 md:-translate-x-1/2 md:block">
+        <div className="hidden md:ml-6 md:flex md:shrink-0">
           <div className="flex h-12 w-12 items-center justify-center rounded-full">
             <button
               type="button"
