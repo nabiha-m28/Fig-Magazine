@@ -56,7 +56,7 @@ export default function FashionShowPage() {
             </div>
 
             <section
-                className={`mx-auto w-full max-w-7xl px-4 pb-20 pt-20 transition-opacity duration-1000 md:px-12 ${isVisible ? "opacity-100" : "opacity-0"
+                className={`mx-auto w-full max-w-7xl px-4 pb-20 pt-40 text-center transition-opacity duration-1000 md:px-12 md:pt-20 md:text-left ${isVisible ? "opacity-100" : "opacity-0"
                     }`}
             >
                 {/* Page Heading */}
@@ -86,7 +86,7 @@ export default function FashionShowPage() {
 
                         <div className="grid items-center gap-6 lg:grid-cols-2 lg:gap-10">
                             {/* Designer Photo */}
-                            <div className="relative aspect-[3/4] w-full max-w-xs overflow-hidden bg-white/5">
+                            <div className="relative mx-auto aspect-[3/4] w-full max-w-xs overflow-hidden bg-white/5 lg:mx-0">
                                 <Image
                                     key={designer.id}
                                     src={designer.image}
@@ -99,7 +99,7 @@ export default function FashionShowPage() {
                             </div>
 
                             {/* Designer Information */}
-                            <div className="flex flex-col justify-center">
+                            <div className="flex flex-col items-center justify-center lg:items-start">
 
                                 <h2 className="text-[clamp(1.75rem,3vw,3rem)] font-black uppercase leading-[1.05] tracking-[0.04em]">
                                     {designer.name}
@@ -165,7 +165,7 @@ export default function FashionShowPage() {
                                 All Designers
                             </h3>
 
-                            <div className="flex flex-wrap gap-x-8 gap-y-4">
+                            <div className="flex flex-wrap justify-center gap-x-8 gap-y-4 md:justify-start">
                                 {designers.map((item, index) => (
                                     <button
                                         key={item.id}
