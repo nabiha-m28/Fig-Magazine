@@ -63,7 +63,7 @@ export default function FashionShowPage() {
                 <div className="mb-4">
 
                     <h1 className="mt-4 text-[clamp(2.5rem,7vw,5rem)] font-black uppercase tracking-[0.15em]">
-                        Fashion Show '26
+                        A Mind's Eye
                     </h1>
 
                     <div className="mt-0 border-t border-white/30" />
@@ -73,9 +73,9 @@ export default function FashionShowPage() {
                 {designer ? (
                     <>
                         <div className="mb-4 flex items-center justify-between">
-                            <h2 className="text-xs font-semibold uppercase tracking-[0.25em] text-white/60">
-                                Meet the Designers
-                            </h2>
+                            <h2 className="text-2xl font-semibold uppercase tracking-[0.1em] text-white">
+  Meet the Designers
+</h2>
 
                             <span className="text-sm tracking-[0.2em] text-white/70">
                                 {String(activeIndex + 1).padStart(2, "0")}
