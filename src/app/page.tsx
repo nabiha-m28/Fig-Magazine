@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import FooterFeature from "@/components/FooterFeature";
 import HeroMedia from "@/components/HeroMedia";
 import IssueSpotlight from "@/components/IssueSpotlight";
+import ArticlesGalleryPreview from "@/components/ArticlesGalleryPreview";
 import Navbar from "@/components/Navbar";
 import { issueSpotlight, tiles } from "@/data/home";
 import { navLinks } from "@/data/nav";
@@ -39,9 +40,8 @@ export default function Home() {
     <main className="bg-black text-white">
       {isLoading && (
         <div
-          className={`fixed inset-0 z-50 flex items-center justify-center bg-black transition-opacity duration-1000 ${
-            isFading ? "opacity-0" : "opacity-100"
-          }`}
+          className={`fixed inset-0 z-50 flex items-center justify-center bg-black transition-opacity duration-1000 ${isFading ? "opacity-0" : "opacity-100"
+            }`}
         >
           <div
             className="flex h-16 w-16 items-center justify-center rounded-full bg-white animate-spin"
@@ -69,6 +69,9 @@ export default function Home() {
       <div id="issues">
         <IssueSpotlight key={issueKey} {...issueSpotlight} />
       </div>
+
+      <ArticlesGalleryPreview />
+
       <FooterFeature tiles={tiles} />
     </main>
   );
