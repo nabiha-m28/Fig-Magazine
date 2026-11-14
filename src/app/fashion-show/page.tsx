@@ -1,7 +1,7 @@
 
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import FooterFeature from "@/components/FooterFeature";
@@ -12,9 +12,19 @@ import { designers } from "@/data/designers";
 export default function FashionShowPage() {
     const [isVisible, setIsVisible] = useState(false);
     const [activeIndex, setActiveIndex] = useState(0);
+    const [missingImages, setMissingImages] = useState<string[]>([]);
 
-    const count = designers.length;
-    const designer = designers[activeIndex];
+    const sortedDesigners = useMemo(() => {
+        return [...designers].sort((a, b) => {
+            const aMissing = missingImages.includes(a.id) ? 1 : 0;
+            const bMissing = missingImages.includes(b.id) ? 1 : 0;
+
+            return aMissing - bMissing;
+        });
+    }, [missingImages]);
+
+    const count = sortedDesigners.length;
+    const designer = sortedDesigners[activeIndex];
 
     const nextDesigner = () => {
         setActiveIndex((prev) => (prev + 1) % count);
@@ -49,6 +59,39 @@ export default function FashionShowPage() {
         };
     }, [count]);
 
+    useEffect(() => {
+        let cancelled = false;
+
+        const checkImages = async () => {
+            const missing = await Promise.all(
+                designers.map(async (designer) => {
+                    try {
+                        const response = await fetch(designer.image, {
+                            method: "HEAD",
+                        });
+
+                        return response.ok ? null : designer.id;
+                    } catch {
+                        return designer.id;
+                    }
+                })
+            );
+
+            if (!cancelled) {
+                setMissingImages(
+                    missing.filter((id): id is string => id !== null)
+                );
+                setActiveIndex(0);
+            }
+        };
+
+        checkImages();
+
+        return () => {
+            cancelled = true;
+        };
+    }, []);
+
     return (
         <main className="min-h-screen bg-black text-white">
             <div className="relative z-50">
@@ -72,10 +115,10 @@ export default function FashionShowPage() {
                 {/* Designers */}
                 {designer ? (
                     <>
-                        <div className="mb-4 flex items-center justify-between">
-                            <h2 className="text-2xl font-semibold uppercase tracking-[0.1em] text-white">
-  Meet the Designers
-</h2>
+                        <div className="mb-8 flex items-center justify-between">
+                            <h2 className="text-xl font-semibold uppercase tracking-[0.1em] text-white">
+                                Meet the Designers
+                            </h2>
 
                             <span className="text-sm tracking-[0.2em] text-white/70">
                                 {String(activeIndex + 1).padStart(2, "0")}
@@ -84,9 +127,9 @@ export default function FashionShowPage() {
                             </span>
                         </div>
 
-                        <div className="grid items-center gap-6 lg:grid-cols-2 lg:gap-10">
+                        <div className="mx-auto grid w-fit max-w-full items-start gap-6 lg:grid-cols-[300px_700px] lg:gap-14">
                             {/* Designer Photo */}
-                            <div className="relative mx-auto aspect-[3/4] w-full max-w-xs overflow-hidden bg-white/5 lg:mx-0">
+                            <div className="relative mx-auto aspect-[3/4] w-full max-w-[300px] overflow-hidden bg-white/5 lg:mx-0">
                                 <Image
                                     key={designer.id}
                                     src={designer.image}
@@ -95,35 +138,29 @@ export default function FashionShowPage() {
                                     className="object-cover"
                                     sizes="(min-width: 1024px) 320px, 100vw"
                                     priority={activeIndex === 0}
+                                    onError={() => {
+                                        setMissingImages((prev) =>
+                                            prev.includes(designer.id)
+                                                ? prev
+                                                : [...prev, designer.id]
+                                        );
+                                    }}
                                 />
                             </div>
 
                             {/* Designer Information */}
-                            <div className="flex flex-col items-center justify-center lg:items-start">
+                            <div className="flex flex-col items-center justify-start lg:items-start">
 
-                                <h2 className="text-[clamp(1.75rem,3vw,3rem)] font-black uppercase leading-[1.05] tracking-[0.04em]">
+                                <h2 className="mb-6 before:content-none after:content-none text-[clamp(1.75rem,3vw,3rem)] font-black uppercase leading-[1.05] tracking-[0.04em]">
                                     {designer.name}
                                 </h2>
-
-                                <div className="my-4 border-t border-white/30" />
-
-                                <h3
-                                    className="mb-4 text-lg italic md:text-xl"
-                                    style={{
-                                        fontFamily: 'Georgia, "Times New Roman", serif',
-                                    }}
-                                >
-                                    {designer.collection}
-                                </h3>
-
                                 <p
-                                    className="max-w-md whitespace-pre-line text-sm leading-relaxed text-white/85 md:text-base"
+                                    className="w-full whitespace-pre-line text-sm leading-relaxed text-white/85 md:text-base"
                                     style={{
                                         fontFamily: 'Georgia, "Times New Roman", serif',
                                     }}
-                                >
-                                    {designer.bio}
-                                </p>
+                                    dangerouslySetInnerHTML={{ __html: designer.bio }}
+                                />
 
                                 {designer.instagram && (
                                     <a
@@ -166,12 +203,9 @@ export default function FashionShowPage() {
                                     The Collection
                                 </h3>
 
-                                <span className="text-xs uppercase tracking-[0.2em] text-white/50">
-                                    {designer.looks.length} Looks
-                                </span>
                             </div>
 
-                            <div className="grid grid-cols-2 justify-items-center gap-4 md:grid-cols-4 md:gap-6">
+                            <div className="grid grid-cols-2 justify-items-start gap-4 md:grid-cols-4 md:gap-6">
                                 {designer.looks.map((look, index) => (
                                     <div
                                         key={`${designer.id}-${index}`}
