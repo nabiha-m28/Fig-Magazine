@@ -86,10 +86,10 @@ export const designers: Designer[] = [
     },
     {
         id: "designer-7",
-        name: "Miku Coppack",
+        name: "Miku Coppock",
         image: "/media/designers/designer-7.jpg",
         collection: "Collection Title",
-        bio: "Miku Coppack crafts womenswear defined by a retro, versatile, and casual aesthetic that champions the endangered artistry of slow fashion over mass production. Drawing profound inspiration from Alexander McQueen, she merges intricate craftsmanship with everyday wearability to counteract the fast-fashion market. To highlight these technical details regardless of labor time, her latest collection strips away distracting colors in favor of an all-black palette chosen for its elegance, adaptability, and interpretive depth, placing total focus on unique silhouettes. By centering on womenswear, Coppack aims to empower fashion-forward women with distinctive, expressive pieces that communicate individuality and personality without saying a word.  ",
+        bio: "Miku Coppock crafts womenswear defined by a retro, versatile, and casual aesthetic that champions the endangered artistry of slow fashion over mass production. Drawing profound inspiration from Alexander McQueen, she merges intricate craftsmanship with everyday wearability to counteract the fast-fashion market. To highlight these technical details regardless of labor time, her latest collection strips away distracting colors in favor of an all-black palette chosen for its elegance, adaptability, and interpretive depth, placing total focus on unique silhouettes. By centering on womenswear, Coppock aims to empower fashion-forward women with distinctive, expressive pieces that communicate individuality and personality without saying a word.  ",
         instagram: "",
         looks: [
             "/media/designers/designs/designer-7-look-1.jpg",
