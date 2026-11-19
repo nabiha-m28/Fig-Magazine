@@ -99,7 +99,7 @@ export const designers: Designer[] = [
     {
         id: "designer-8",
         name: "Stella Maloney",
-        image: "/media/designers/designer-8.jpg",
+        image: "/media/designers/designer-8.jpeg",
         collection: "Collection Title",
         bio: "Stella Maloney, a DC-based womenswear designer, fuses vintage 20s and 50s inspiration with a modern sensibility. Beautifully flowing chiffons and silks, Stella’s garments take inspiration from previous generations of tailors and seamstresses from her family, using technology and contemporary silhouettes to reimagine their patterns. She revitalizes classical couture techniques, meticulously pick-stitching delicate fabrics and draping jersey.",
         instagram: "",
@@ -111,10 +111,10 @@ export const designers: Designer[] = [
     },
     {
         id: "designer-9",
-        name: "Bracie",
-        image: "/media/designers/designer-9.jpg",
+        name: "Bracie Easton",
+        image: "/media/designers/designer-9.jpeg",
         collection: "Collection Title",
-        bio: "a New York–based fashion designer – visual artist, and creative director whose practice extends into production, photography, styling, and photo editing.  Her debut collection for the commercial market – done in collaboration with Badgley Mischka – draws upon the fashion and cultural imagination of the 1970s, particularly the work of Halston and Yves Saint Laurent, figures such as Diana Ross and Loulou de la Falaise, and films including Le Grand Blond avec une chaussure noire. The collection explores relationships between exposure and restraint, using the conventions of dress to negotiate femininity, sexuality, and propriety. Gothic lace alternately reveals the body and constricts it. Elsewhere, traditionally masculine tailoring may acquire or resist a feminine silhouette through the simple intervention of a belt. How Freudian!",
+        bio: "A New York–based fashion designer – visual artist, and creative director whose practice extends into production, photography, styling, and photo editing.  Her debut collection for the commercial market – done in collaboration with Badgley Mischka – draws upon the fashion and cultural imagination of the 1970s, particularly the work of Halston and Yves Saint Laurent, figures such as Diana Ross and Loulou de la Falaise, and films including Le Grand Blond avec une chaussure noire. The collection explores relationships between exposure and restraint, using the conventions of dress to negotiate femininity, sexuality, and propriety. Gothic lace alternately reveals the body and constricts it. Elsewhere, traditionally masculine tailoring may acquire or resist a feminine silhouette through the simple intervention of a belt. How Freudian!",
         instagram: "",
         looks: [
             "/media/designers/designs/designer-9-look-1.png",
@@ -124,7 +124,7 @@ export const designers: Designer[] = [
     },
     {
         id: "designer-10",
-        name: "Yiyi",
+        name: "Yiyi Zhou",
         image: "/media/designers/designer-10.jpg",
         collection: "Collection Title",
         bio: "A current Parsons student enamored with Japanese inspired womenswear – presents a jacket from her current collection, “Aftermath”. She was inspired by visceral images of peeling wallpaper in old houses, revealing layer by layer the memories and past lives that a place can hold. She builds a textile landscape within her jacket. Through nuno felting, overlay, and handsitching, Yiyi created a new fabric from scratch with wool and discarded materials from past projects.",
@@ -210,8 +210,8 @@ export const designers: Designer[] = [
     },
     {
         id: "designer-17",
-        name: "Iris Bloom",
-        image: "/media/designers/designer-18.jpg",
+        name: "Iris Owens",
+        image: "/media/designers/designer-17.jpeg",
         collection: "Morte Della Vita",
         bio: "A designer from London and currently studying in Boston – shares a collection inspired by celestial surrealism. Taking inspiration from the archival showroom where she used to work, Iris designed the collection as a form of escapism. After all, fashion can be wielded just like armour. Her dreamy inspiration emerges through her use of polyester brocade and ornate synthetic feathers. Discovering costume design in the last two years, Iris looks forward to exploring the field further, though she absolutely adores all types of designs. ",
         instagram: "",
